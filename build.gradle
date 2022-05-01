@@ -2,7 +2,7 @@
 buildscript {
     //전역변수 생성
     ext {
-        springBootVersion = '2.1.7.RELEASE'
+        springBootVersion = '2.2.0.RELEASE'
     }
     //원격 저장소 설정
     repositories {
