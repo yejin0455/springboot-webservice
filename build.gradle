@@ -38,6 +38,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')  //소셜로그인 등 클라이언트 입장에서 기능 구현 시 필요
     compile('org.springframework.session:spring-session-jdbc')  //데이터베이스를 세션 저장소로 사용
+    compile('org.mariadb.jdbc:maria-java-client')
     testCompile('org.springframework.security:spring-security-test')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
